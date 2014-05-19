@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1285484F192A830300FBE92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285484E192A830300FBE92D /* Foundation.framework */; };
+		12854851192A830300FBE92D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12854850192A830300FBE92D /* CoreGraphics.framework */; };
+		12854853192A830300FBE92D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12854852192A830300FBE92D /* UIKit.framework */; };
+		12854859192A830300FBE92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12854857192A830300FBE92D /* InfoPlist.strings */; };
+		1285485B192A830300FBE92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1285485A192A830300FBE92D /* main.m */; };
+		1285485F192A830300FBE92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1285485E192A830300FBE92D /* AppDelegate.m */; };
+		12854862192A830300FBE92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12854860192A830300FBE92D /* Main.storyboard */; };
+		12854865192A830300FBE92D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12854864192A830300FBE92D /* ViewController.m */; };
+		12854867192A830300FBE92D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12854866192A830300FBE92D /* Images.xcassets */; };
+		1285486E192A830300FBE92D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285486D192A830300FBE92D /* XCTest.framework */; };
+		1285486F192A830300FBE92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285484E192A830300FBE92D /* Foundation.framework */; };
+		12854870192A830300FBE92D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12854852192A830300FBE92D /* UIKit.framework */; };
+		12854878192A830300FBE92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12854876192A830300FBE92D /* InfoPlist.strings */; };
+		1285487A192A830300FBE92D /* SkelbimuAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12854879192A830300FBE92D /* SkelbimuAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12854871192A830300FBE92D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12854843192A830300FBE92D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1285484A192A830300FBE92D;
+			remoteInfo = SkelbimuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1285484B192A830300FBE92D /* SkelbimuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkelbimuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1285484E192A830300FBE92D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12854850192A830300FBE92D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12854852192A830300FBE92D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12854856192A830300FBE92D /* SkelbimuApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkelbimuApp-Info.plist"; sourceTree = "<group>"; };
+		12854858192A830300FBE92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1285485A192A830300FBE92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1285485C192A830300FBE92D /* SkelbimuApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkelbimuApp-Prefix.pch"; sourceTree = "<group>"; };
+		1285485D192A830300FBE92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1285485E192A830300FBE92D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12854861192A830300FBE92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12854863192A830300FBE92D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12854864192A830300FBE92D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12854866192A830300FBE92D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1285486C192A830300FBE92D /* SkelbimuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkelbimuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1285486D192A830300FBE92D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		12854875192A830300FBE92D /* SkelbimuAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkelbimuAppTests-Info.plist"; sourceTree = "<group>"; };
+		12854877192A830300FBE92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12854879192A830300FBE92D /* SkelbimuAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkelbimuAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12854848192A830300FBE92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12854851192A830300FBE92D /* CoreGraphics.framework in Frameworks */,
+				12854853192A830300FBE92D /* UIKit.framework in Frameworks */,
+				1285484F192A830300FBE92D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12854869192A830300FBE92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1285486E192A830300FBE92D /* XCTest.framework in Frameworks */,
+				12854870192A830300FBE92D /* UIKit.framework in Frameworks */,
+				1285486F192A830300FBE92D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12854842192A830300FBE92D = {
+			isa = PBXGroup;
+			children = (
+				12854854192A830300FBE92D /* SkelbimuApp */,
+				12854873192A830300FBE92D /* SkelbimuAppTests */,
+				1285484D192A830300FBE92D /* Frameworks */,
+				1285484C192A830300FBE92D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1285484C192A830300FBE92D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1285484B192A830300FBE92D /* SkelbimuApp.app */,
+				1285486C192A830300FBE92D /* SkelbimuAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1285484D192A830300FBE92D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1285484E192A830300FBE92D /* Foundation.framework */,
+				12854850192A830300FBE92D /* CoreGraphics.framework */,
+				12854852192A830300FBE92D /* UIKit.framework */,
+				1285486D192A830300FBE92D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12854854192A830300FBE92D /* SkelbimuApp */ = {
+			isa = PBXGroup;
+			children = (
+				1285485D192A830300FBE92D /* AppDelegate.h */,
+				1285485E192A830300FBE92D /* AppDelegate.m */,
+				12854860192A830300FBE92D /* Main.storyboard */,
+				12854863192A830300FBE92D /* ViewController.h */,
+				12854864192A830300FBE92D /* ViewController.m */,
+				12854866192A830300FBE92D /* Images.xcassets */,
+				12854855192A830300FBE92D /* Supporting Files */,
+			);
+			path = SkelbimuApp;
+			sourceTree = "<group>";
+		};
+		12854855192A830300FBE92D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12854856192A830300FBE92D /* SkelbimuApp-Info.plist */,
+				12854857192A830300FBE92D /* InfoPlist.strings */,
+				1285485A192A830300FBE92D /* main.m */,
+				1285485C192A830300FBE92D /* SkelbimuApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12854873192A830300FBE92D /* SkelbimuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				12854879192A830300FBE92D /* SkelbimuAppTests.m */,
+				12854874192A830300FBE92D /* Supporting Files */,
+			);
+			path = SkelbimuAppTests;
+			sourceTree = "<group>";
+		};
+		12854874192A830300FBE92D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12854875192A830300FBE92D /* SkelbimuAppTests-Info.plist */,
+				12854876192A830300FBE92D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1285484A192A830300FBE92D /* SkelbimuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1285487D192A830300FBE92D /* Build configuration list for PBXNativeTarget "SkelbimuApp" */;
+			buildPhases = (
+				12854847192A830300FBE92D /* Sources */,
+				12854848192A830300FBE92D /* Frameworks */,
+				12854849192A830300FBE92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkelbimuApp;
+			productName = SkelbimuApp;
+			productReference = 1285484B192A830300FBE92D /* SkelbimuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1285486B192A830300FBE92D /* SkelbimuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12854880192A830300FBE92D /* Build configuration list for PBXNativeTarget "SkelbimuAppTests" */;
+			buildPhases = (
+				12854868192A830300FBE92D /* Sources */,
+				12854869192A830300FBE92D /* Frameworks */,
+				1285486A192A830300FBE92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12854872192A830300FBE92D /* PBXTargetDependency */,
+			);
+			name = SkelbimuAppTests;
+			productName = SkelbimuAppTests;
+			productReference = 1285486C192A830300FBE92D /* SkelbimuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12854843192A830300FBE92D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dantu gelis";
+				TargetAttributes = {
+					1285486B192A830300FBE92D = {
+						TestTargetID = 1285484A192A830300FBE92D;
+					};
+				};
+			};
+			buildConfigurationList = 12854846192A830300FBE92D /* Build configuration list for PBXProject "SkelbimuApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12854842192A830300FBE92D;
+			productRefGroup = 1285484C192A830300FBE92D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1285484A192A830300FBE92D /* SkelbimuApp */,
+				1285486B192A830300FBE92D /* SkelbimuAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12854849192A830300FBE92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12854867192A830300FBE92D /* Images.xcassets in Resources */,
+				12854859192A830300FBE92D /* InfoPlist.strings in Resources */,
+				12854862192A830300FBE92D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1285486A192A830300FBE92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12854878192A830300FBE92D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12854847192A830300FBE92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12854865192A830300FBE92D /* ViewController.m in Sources */,
+				1285485F192A830300FBE92D /* AppDelegate.m in Sources */,
+				1285485B192A830300FBE92D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12854868192A830300FBE92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1285487A192A830300FBE92D /* SkelbimuAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12854872192A830300FBE92D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1285484A192A830300FBE92D /* SkelbimuApp */;
+			targetProxy = 12854871192A830300FBE92D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12854857192A830300FBE92D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12854858192A830300FBE92D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12854860192A830300FBE92D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12854861192A830300FBE92D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12854876192A830300FBE92D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12854877192A830300FBE92D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1285487B192A830300FBE92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1285487C192A830300FBE92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1285487E192A830300FBE92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkelbimuApp/SkelbimuApp-Prefix.pch";
+				INFOPLIST_FILE = "SkelbimuApp/SkelbimuApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1285487F192A830300FBE92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkelbimuApp/SkelbimuApp-Prefix.pch";
+				INFOPLIST_FILE = "SkelbimuApp/SkelbimuApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		12854881192A830300FBE92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkelbimuApp.app/SkelbimuApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkelbimuApp/SkelbimuApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkelbimuAppTests/SkelbimuAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		12854882192A830300FBE92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkelbimuApp.app/SkelbimuApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkelbimuApp/SkelbimuApp-Prefix.pch";
+				INFOPLIST_FILE = "SkelbimuAppTests/SkelbimuAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12854846192A830300FBE92D /* Build configuration list for PBXProject "SkelbimuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1285487B192A830300FBE92D /* Debug */,
+				1285487C192A830300FBE92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1285487D192A830300FBE92D /* Build configuration list for PBXNativeTarget "SkelbimuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1285487E192A830300FBE92D /* Debug */,
+				1285487F192A830300FBE92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12854880192A830300FBE92D /* Build configuration list for PBXNativeTarget "SkelbimuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12854881192A830300FBE92D /* Debug */,
+				12854882192A830300FBE92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12854843192A830300FBE92D /* Project object */;
+}
